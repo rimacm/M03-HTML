@@ -1,0 +1,73 @@
+/* Reset CSS */
+* {
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+}
+
+/* Estilos básicos para el cuerpo del documento */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6; /* Mejorar la legibilidad del texto */
+  color: #333; /* Establecer color de texto predeterminado */
+}
+
+/* Corrección de estilos para elementos de lista */
+/* ul, ol {
+  list-style: none;
+} */
+
+/* Estilos básicos para enlaces */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Estilos básicos para elementos de texto */
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Establecer estilos básicos para las imágenes */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Eliminar espacio adicional debajo de las imágenes */
+}
+
+/* Eliminar la apariencia predeterminada de los elementos de formulario */
+input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-family: inherit;
+  font-size: inherit;
+}
+
+/* Establecer estilos básicos para elementos de formulario */
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+/* Eliminar bordes y estilos predeterminados para elementos de formulario */
+button, input[type="submit"] {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+/* Eliminar el resplandor al hacer clic en algunos navegadores */
+button:focus, input:focus {
+  outline: none;
+}
+
+/* Establecer estilos básicos para la etiqueta de área de texto */
+textarea {
+  resize: none; /* Evitar que el área de texto sea redimensionable */
+}

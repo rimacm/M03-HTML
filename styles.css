@@ -1,0 +1,42 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: rgb(196, 245, 161);
+}
+h1{
+  text-align: center;
+  color: orangered;
+
+}
+.titulo{
+  color: orange
+}
+section{
+  padding-left: 10px;
+}
+#imagen-container{
+  width: 70vw;
+  margin: auto;
+}
+img {
+  width: 750px;
+  text-align: center;
+  display: flex;
+  margin: auto;
+  border-radius: 15px;
+  margin-top: 15px;
+}
+
+#conclucion{
+  margin-bottom: 30px;
+}
+footer{
+  height:  50px;
+  background-color: #f3c46d;
+  text-align: center;
+  /* position: fixed; */
+  /* bottom: 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
